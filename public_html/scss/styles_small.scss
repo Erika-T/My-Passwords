@@ -1,0 +1,60 @@
+// Variables =============================================================
+$baseFontSize : 16px;
+
+// Global =============================================================
+.container {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.swal-modal {
+    width: 90%;
+}
+
+// Header / Search From =============================================================
+header {
+    width: 90%;
+    height: 122px;
+
+    .search_form {
+        position: absolute;
+        margin-top: 10px;
+    }
+
+    .user_info {
+        position: absolute;
+        top: 20px;
+        right: 10px;
+    }
+}
+
+// .user_info_dropdown {
+//     top: -60px;
+// }
+
+// Search From =============================================================
+header {
+
+    h1 {
+        display: block;
+    }
+}
+
+// Modal Window =============================================================
+.modal_content {
+    width: 90%;
+}
+
+// Items =============================================================
+.category {
+    width: 90%;
+}
+
+ul.items {
+    display: flex;
+
+    div.item {
+        flex: 0 0 97%;
+    }
+}

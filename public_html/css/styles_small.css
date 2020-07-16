@@ -1,0 +1,44 @@
+.container {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.swal-modal {
+  width: 90%;
+}
+
+header {
+  width: 90%;
+  height: 122px;
+}
+header .search_form {
+  position: absolute;
+  margin-top: 10px;
+}
+header .user_info {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+
+header h1 {
+  display: block;
+}
+
+.modal_content {
+  width: 90%;
+}
+
+.category {
+  width: 90%;
+}
+
+ul.items {
+  display: flex;
+}
+ul.items div.item {
+  flex: 0 0 97%;
+}
+
+/*# sourceMappingURL=styles_small.css.map */

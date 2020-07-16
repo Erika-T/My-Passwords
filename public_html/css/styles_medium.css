@@ -1,0 +1,49 @@
+.hamburger:hover {
+  box-shadow: none;
+}
+
+nav.fullWidth {
+  width: 100%;
+}
+nav.fullWidth li {
+  text-align: center;
+}
+nav.fullWidth li a {
+  font-size: 26px;
+}
+
+header {
+  height: 122px;
+}
+header .search_form {
+  position: absolute;
+  margin-top: 10px;
+  width: 96%;
+}
+header .user_info {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+
+.user_info_dropdown {
+  top: 60px;
+}
+
+.modal_content {
+  width: 80%;
+}
+
+ul.items {
+  --gap: 10px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: calc(-1 * var(--gap)) 0 0 calc(-1 * var(--gap));
+  width: calc(100% + var(--gap));
+}
+ul.items div.item {
+  margin: var(--gap) 0 0 var(--gap);
+  flex: 0 0 48%;
+}
+
+/*# sourceMappingURL=styles_medium.css.map */
